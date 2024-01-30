@@ -161,9 +161,9 @@ html, body {
     
     .contact{
         position: absolute;
-        top: 1700px;
-        left: 9.6%;
-        height: 350px;
+        top: 1850px;
+        left: 8.7%;
+        height: 300px;
         width: 300px;
         border-color: #4D7C8A;
         border-style: solid;
@@ -173,5 +173,11 @@ html, body {
     
     .contact-item{
         font-size: 12pt;
+    }
+    .resume{
+        position: absolute;
+        left: 9%;
+        top: 2200px;
+        width: 300px;
     }
     }
