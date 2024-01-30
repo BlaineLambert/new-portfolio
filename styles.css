@@ -1,0 +1,177 @@
+html, body {
+    height: 160%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #bfb1c1;
+  }
+
+.navbar{
+    background-color: #4D7C8A;
+    height: 80px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 1580px;
+}
+
+.views{
+    background-color: #6999ba;
+    position: absolute;
+    top: 10.8%;
+    left: 1%;
+    height: 200px;
+    width: 150px;
+    visibility: hidden;
+}
+
+.self_image{
+    position: absolute;
+    top: 15%;
+    left: 36.8%;
+    height: 400px;
+    width: 400px;
+}
+
+.main_about_box{
+    position: absolute;
+    top: 70%;
+    left: 29.5%;
+    border-style: solid;
+    border-color: #4D7C8A;
+    padding: 10px;
+    text-align: center;
+    height: 890px;
+    width: 600px;
+    font-size: 18pt;
+    border-radius: 5%;
+}
+
+.skill-image{
+    height: 60px;
+    padding-left: 20px;
+}
+
+.invis{
+    visibility: hidden;
+}
+
+.project_item{
+    font-size: 24pt;
+    text-decoration: none;
+    color: #4D7C8A;
+}
+
+.fancyname{
+    position: relative;
+    top: -50px;
+    font-size: 36pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1;
+    text-align: center;
+}
+
+.contact{
+    position: absolute;
+    top: 1500px;
+    left: 30.175%;
+    height: 350px;
+    width: 600px;
+    border-color: #4D7C8A;
+    border-style: solid;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.contact-item{
+    font-size: 16pt;
+}
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: #bfb1c1;
+      }
+    
+    .navbar{
+        background-color: #4D7C8A;
+        height: 80px;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 1580px;
+    }
+    
+    .views{
+        background-color: #6999ba;
+        position: absolute;
+        top: 10.8%;
+        left: 1%;
+        height: 200px;
+        width: 150px;
+        visibility: hidden;
+    }
+    
+    .self_image{
+        position: absolute;
+        top: 15%;
+        left: 18%;
+        height: 400px;
+        width: 400px;
+    }
+    
+    .main_about_box{
+        position: absolute;
+        top: 55%;
+        left: 15.2%;
+        border-style: solid;
+        border-color: #4D7C8A;
+        padding: 10px;
+        text-align: center;
+        height: 1000px;
+        width: 400px;
+        font-size: 18pt;
+        border-radius: 5%;
+    }
+    
+    .skill-image{
+        height: 60px;
+        padding-left: 0px;
+    }
+    
+    .invis{
+        visibility: hidden;
+    }
+    
+    .project_item{
+        font-size: 24pt;
+        text-decoration: none;
+        color: #4D7C8A;
+    }
+    
+    .fancyname{
+        position: relative;
+        top: -50px;
+        font-size: 36pt;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        z-index: 1;
+        text-align: center;
+    }
+    
+    .contact{
+        position: absolute;
+        top: 1700px;
+        left: 12.5%;
+        height: 350px;
+        width: 450px;
+        border-color: #4D7C8A;
+        border-style: solid;
+        border-radius: 5%;
+        text-align: center;
+    }
+    
+    .contact-item{
+        font-size: 16pt;
+    }
+    }
